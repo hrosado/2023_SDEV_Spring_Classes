@@ -1,0 +1,4 @@
+AWS Cloud Resources
+[x] - PDF - AWS Academy Learner Lab - Student Guide
+[x] - PDF - Using the AWS Academy Environment
+[x] - Cloud9IDE Users Guide

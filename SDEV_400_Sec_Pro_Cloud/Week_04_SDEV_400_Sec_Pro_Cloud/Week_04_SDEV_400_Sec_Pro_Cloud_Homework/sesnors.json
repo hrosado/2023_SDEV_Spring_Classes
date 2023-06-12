@@ -1,0 +1,268 @@
+{
+  "Sensors": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_01" },
+          "SensorDescription": { "S": "Sensor1 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic1-elementarray.jpg" },
+          "Locations": { "SS": ["Tampa FL", "Destin FL", "Orlando FL"] },
+		  "Population": { "N": "1200000" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_02" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Belton MO", "Independence MO"] },
+		  "Population": { "N": "40000" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_03" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Kansas City MO", "St Louis MO"] },
+		  "Population": { "N": "125000" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_04" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Brooklyn NY", "Buffalo NY"] },
+		  "Population": { "N": "3000000" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_05" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Newark NJ", "Trenton NJ"] },
+		  "Population": { "N": "2000000" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_06" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Harrisonville PA", "Philadelphia PA"] },
+          "StateElevation": { "N": "145" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_07" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Silver Springs MD", "Annapolis MD"] },
+		  "StateElevation": { "N": "226" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_08" },
+          "SensorDescription": { "S": "Sensor1 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic1-elementarray.jpg" },
+          "Locations": { "SS": ["Atlanta GA", "For Gordon GA", "Augusta GA"] },
+		  "StateElevation": { "N": "99" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_09" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Austin TX", "Laredo TX"] },
+		  "LastRecord": { "N": "2002" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_10" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Baton Rouge LA", "Shreveport LA"] },
+		  "LastRecord": { "N": "2006" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_11" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Biloxi MI", "Jackson MI"] },
+		  "LastRecord": { "N": "2004" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_12" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Toledo OH", "Dayton MO"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_13" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Woodbridge VA", "Sterling VA"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_14" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Danbury CT", "Hartford CT"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_15" },
+          "SensorDescription": { "S": "Sensor1 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic1-elementarray.jpg" },
+          "Locations": { "SS": ["Charlotte NC", "Asheville NC"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_16" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Charlestown SC", "Columbia SC"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_17" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Montgomery AL", "Auburn AL"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_18" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Tuscon City AZ", "Mesa AZ"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_19" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Reno NV", "Elko NV"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_20" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Ogden UT", "Orem UT"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_21" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "ImageFile": { "S": "/Sensors/images/acoustic2-elementarray.jpg" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Bend OR", "Portland OR"] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Sensor": { "S": "Sensor_22" },
+          "SensorDescription": { "S": "Sensor2 Description" },
+          "SampleRate": { "N": "2002" },
+          "SensorType": { "S": "Temp" },
+          "Locations": { "SS": ["Fresno CA", "Sacremento CA"] }
+        }
+      }
+    }
+  ]
+}

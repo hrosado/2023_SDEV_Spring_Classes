@@ -1,0 +1,8 @@
+You may also wish to update some of the outdated libraries:
+
+python --version
+pip3 list --outdated
+pip3 freeze > requirements.txt
+sed -i 's/\=\=/\>\=/g' requirements.txt 
+sudo pip3 install -r requirements.txt --upgrade
+sudo pip3 install boto3 

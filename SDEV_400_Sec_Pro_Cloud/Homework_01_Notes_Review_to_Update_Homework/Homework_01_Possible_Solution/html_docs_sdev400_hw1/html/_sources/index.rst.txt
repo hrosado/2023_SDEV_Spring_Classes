@@ -1,0 +1,39 @@
+.. SDEV400 - Homework 1 - Using S3 documentation master file
+
+.. raw:: html
+
+    <style>
+        .red {color:red;}
+        .boldred {color:red; font-weight:bold;}
+        .blackboldunderline {color:black; font-weight:bold;text-decoration:underline;}
+    </style>
+
+.. role:: red
+.. role:: boldred
+.. role:: underline
+.. role:: blackboldunderline
+
+Welcome to SDEV400 - Homework 1 - Using S3's documentation!
+===========================================================
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+
+SDEV400 - Homework 1 - Using S3
+===============================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+.. automodule:: sdev400_homework1
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+
+

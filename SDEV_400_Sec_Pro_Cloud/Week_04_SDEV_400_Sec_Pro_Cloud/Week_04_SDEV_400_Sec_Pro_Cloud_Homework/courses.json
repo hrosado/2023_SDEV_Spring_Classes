@@ -1,0 +1,24 @@
+{
+  "Courses": [
+    {
+      "PutRequest": {
+        "Item": {
+          "CourseID": { "S": "1" },
+          "Title": { "S": "Secure Programming in the Cloud" },
+          "Subject": { "S": "SDEV" },
+          "CatalogNbr": { "N": "400" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CourseID": { "S": "2" },
+          "Title": { "S": "Mitigating Software Vulnerabilities" },
+          "Subject": { "S": "SDEV" },
+          "CatalogNbr": { "N": "425" }
+        }
+      }
+    }
+  ]
+}

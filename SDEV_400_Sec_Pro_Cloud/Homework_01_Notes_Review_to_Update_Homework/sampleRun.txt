@@ -1,0 +1,372 @@
+****************************************************************************************
+ Welcome to the Python SDEV400 Homework 1 Application.
+****************************************************************************************
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: a
+ What is your first name? 45847083
+
+
+********************************************************************************************* 
+ Your name contains invalid characters
+*********************************************************************************************
+ What is your first name? hdhdh0
+
+
+********************************************************************************************* 
+ Your name contains invalid characters
+*********************************************************************************************
+ What is your first name? craig
+ Do you want to continue? (Y or N):hello?
+
+ #######################################
+ Please make a valid selection Y or N
+ #######################################
+
+ Do you want to continue? (Y or N):Y
+ What is your last name? bl@h
+
+
+********************************************************************************************* 
+ Your name contains invalid characters
+*********************************************************************************************
+ What is your last name? poma
+ Do you want to continue? (Y or N):Y
+
+
+**************************************************************************************************** 
+ Created bucket craigpoma-624585 in region us-east-1.
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: b
+Which bucket should the object be placed?
+0. craigpoma-123456789
+1. craigpoma-624585
+2. sdev400-images
+3. sdev400hw2craigpoma
+4. sdev400hw4files
+Enter bucket number:1
+
+
+**************************************************************************************************** 
+ error.log was uploaded to craigpoma-624585.
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: d
+Which bucket would you like to delete?
+0. craigpoma-123456789
+1. craigpoma-624585
+2. sdev400-images
+3. sdev400hw2craigpoma
+4. sdev400hw4files
+Enter bucket number:1
+
+
+**************************************************************************************************** 
+ The bucket craigpoma-624585 is not empty you must first delete the 1 object(s) from the bucket.
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: c
+Which bucket would you like to delete from?
+0. craigpoma-123456789
+1. craigpoma-624585
+2. sdev400-images
+3. sdev400hw2craigpoma
+4. sdev400hw4files
+Enter bucket number:0
+
+
+**************************************************************************************************** 
+ The bucket craigpoma-123456789 is empty.
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: c
+Which bucket would you like to delete from?
+0. craigpoma-123456789
+1. craigpoma-624585
+2. sdev400-images
+3. sdev400hw2craigpoma
+4. sdev400hw4files
+Enter bucket number:1
+0. error.log
+Enter object number:5
+
+
+**************************************************************************************** 
+ You input a range too large for expected completion.
+**************************************************************************************** 
+
+Enter object number:g
+
+
+**************************************************************************************** 
+ You input an invalid constraint value. 
+ Values should be digits.
+**************************************************************************************** 
+
+Enter object number:0
+
+
+**************************************************************************************************** 
+ Deleted object error.log from bucket craigpoma-624585.
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: d
+Which bucket would you like to delete?
+0. craigpoma-123456789
+1. craigpoma-624585
+2. sdev400-images
+3. sdev400hw2craigpoma
+4. sdev400hw4files
+Enter bucket number:6
+
+
+**************************************************************************************** 
+ You input a range too large for expected completion.
+**************************************************************************************** 
+
+Enter bucket number:d
+
+
+**************************************************************************************** 
+ You input an invalid constraint value. 
+ Values should be digits.
+**************************************************************************************** 
+
+Enter bucket number:0
+
+
+**************************************************************************************************** 
+ Deleted bucket craigpoma-123456789
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: d
+Which bucket would you like to delete?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+3. sdev400hw4files
+Enter bucket number:3
+
+
+**************************************************************************************************** 
+ Deleted bucket sdev400hw4files
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: e
+Which bucket will be the source bucket?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+Enter bucket number:0
+
+
+**************************************************************************************************** 
+ The bucket craigpoma-624585 is empty, you must select a bucket with objects
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: e
+Which bucket will be the source bucket?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+Enter bucket number:2
+0. temp_file
+Enter object number:3
+
+
+**************************************************************************************** 
+ You input a range too large for expected completion.
+**************************************************************************************** 
+
+Enter object number:0
+Which bucket will be the destination bucket?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+Enter bucket number:2
+
+
+**************************************************************************************************** 
+ Source Bucket and Destination Bucket cannot be the same!
+**************************************************************************************************** 
+
+Which bucket will be the destination bucket?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+Enter bucket number:0
+
+
+**************************************************************************************************** 
+ Copied Object temp_file from Source sdev400hw2craigpoma to Destination craigpoma-624585
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: c
+Which bucket would you like to delete from?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+Enter bucket number:0
+0. temp_file
+Enter object number:0
+
+
+**************************************************************************************************** 
+ Deleted object temp_file from bucket craigpoma-624585.
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: d
+Which bucket would you like to delete?
+0. craigpoma-624585
+1. sdev400-images
+2. sdev400hw2craigpoma
+Enter bucket number:0
+
+
+**************************************************************************************************** 
+ Deleted bucket craigpoma-624585
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: f
+Which bucket will be the source bucket?
+0. sdev400-images
+1. sdev400hw2craigpoma
+Enter bucket number:1
+0. temp_file
+Enter object number:6
+
+
+**************************************************************************************** 
+ You input a range too large for expected completion.
+**************************************************************************************** 
+
+Enter object number:d
+
+
+**************************************************************************************** 
+ You input an invalid constraint value. 
+ Values should be digits.
+**************************************************************************************** 
+
+Enter object number:0
+
+
+**************************************************************************************************** 
+ Object temp_file from Source sdev400hw2craigpoma downloaded as ./temp_file
+**************************************************************************************************** 
+
+ What would you like to do today? 
+         a. Creates a S3 bucket with the name consisting of your firstname, lastname and a random 6-digit suffix. 
+         b. Put an object (current error.log) in a previously created bucket. 
+         c. Delete an object in a bucket. 
+         d. Delete a bucket.
+         e. Copy and object from one bucket to another. 
+         f. Downloads an existing object from a bucket. 
+         q. Exit the program. 
+Enter selection: q
+
+
+**************************************************************************************** 
+ Thanks for trying the Python SDEV400 Homework 1 Application. You have selected to exit  
+ the application. Have a nice day.
+****************************************************************************************
+
+
+****************************************************************************************
+        Exit time: 02-23-2021 01:51:42
+****************************************************************************************

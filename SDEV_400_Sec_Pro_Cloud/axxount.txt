@@ -1,0 +1,27 @@
+Source: https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-identifiers.html
+
+To find your AWS account ID using the AWS CLI
+$ aws sts get-caller-identity \
+    --query Account \
+    --output text
+031311690422
+
+
+Finding the canonical ID as the root user or IAM user
+$ aws s3api list-buckets \
+    --query Owner.ID \
+    --output text
+509380db3905c932518516c04a2b13623d4186ded86cdacd3f58566f1dd8a013
+
+
+Finding the canonical ID as a federated user with an IAM role
+$ aws s3api list-buckets \
+    --query Owner.ID \
+    --output text
+NOT FOUND BECAUSE NOT ASSIGNED.
+
+aws s3api put-object-acl
+aws s3api get-object
+
+
+aws s3api get-object --bucket edu.umuc.sdev400.testbucketmaster-676959 --key Kirk_surrounded_by_Tribbles.jpg  myFile.jpg

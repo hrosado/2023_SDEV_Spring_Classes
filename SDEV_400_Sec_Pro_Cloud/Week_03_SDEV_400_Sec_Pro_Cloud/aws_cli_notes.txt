@@ -1,0 +1,72 @@
+
+
+Check version:
+aws --version
+
+
+AWS CLI call is:
+aws [options] <command> <subcommand> [parameters]
+
+The following command line options are frequently used within AWS:
+--profile – name of a profile to use, or "default" to use the default profile.
+--region – AWS region to call.
+--output – output format.
+--endpoint-url – The endpoint to make the call against.
+
+aws help
+
+Help for a specific service:
+aws snowball help
+
+List all S3 Buckets:
+aws s3 ls
+
+Table 1 AWS CLI Commands and Examples for S3
+AWS CLI Call Description
+List help options and overview of the S3 service.
+    aws s3 help 
+Describes help associated with creating a bucket in S3 through the AWS CLI tool.
+    aws s3 mb help 
+
+Creates a bucket named edu.umuc.sdev400.robertson.project1
+aws s3 mb s3://edu.umuc.sdev400.dionboles.project2023
+
+Removes a bucket named edu.umuc.sdev400.robertson.project1 (use --recursive to remove files as
+well)
+aws s3 rb s3://edu.umuc.sdev400.robertson.project1
+
+Lists all buckets.
+    aws s3 ls 
+
+Lists folders of the photos bucket.
+    aws s3 ls s3://edu.umuc.sdev400.jrobertson.photos 
+
+List files in subdirectory of California2015. Note the use of 
+the / at the end to denote the directory. If omitted only the
+Pre(fix) of 2017 is listed.
+    aws s3 ls s3://edu.umuc.sdev400.jrobertson.photos/2017/
+
+Copy the Picture1.png file from your Cloud9 current folder to the
+2019 S3 bucket folder. Note: you must upload the Picture1.png file
+from your desktop to the Cloud9 current folder for this to work.
+aws s3 cp Picture1.png s3://edu.umuc.sdev400.jrobertson.photos/2019/
+
+
+Moves Picture1.png from the 2018 folder to the 2017 folder.
+aws s3 mv s3://edu.umuc.sdev400.jrobertson.photos/2018/Picture1.png
+s3://edu.umuc.sdev400.jrobertson.photos/2017/
+
+Remove the Picture1.png from the 2017 folder.
+aws s3 rm s3://edu.umuc.sdev400.jrobertson.photos/2017/Picture1.png
+
+Recursively lists folders and files in photos and summarize the results.
+aws s3 ls s3://edu.umuc.sdev400.jrobertson.photos/ --recursive --summarize
+
+
+To execute a bash script (.sh) ./file.sh
+./S3v2.sh
+
+Redirect output
+./S3v2.sh  > scriptoutput.txt
+
+Read outputcat scriptoutput.txt

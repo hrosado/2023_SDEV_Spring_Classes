@@ -1,0 +1,14 @@
+2021-02-23 01:47:54 INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-02-23 01:48:44 INFO:Created bucket craigpoma-624585 in region us-east-1.
+2021-02-23 01:49:00 INFO:error.log was uploaded to craigpoma-624585.
+2021-02-23 01:49:13 INFO:The bucket craigpoma-624585 is not empty you must first delete the 1 object(s) from the bucket.
+2021-02-23 01:49:27 INFO:The bucket craigpoma-123456789 is empty.
+2021-02-23 01:49:55 INFO:Deleted object error.log from bucket craigpoma-624585.
+2021-02-23 01:50:12 INFO:Deleted bucket craigpoma-123456789
+2021-02-23 01:50:24 INFO:Deleted bucket sdev400hw4files
+2021-02-23 01:50:32 INFO:The bucket craigpoma-624585 is empty, you must select a bucket with objects
+2021-02-23 01:50:53 INFO:Source Bucket and Destination Bucket cannot be the same!
+2021-02-23 01:50:56 INFO:Copied Object temp_file from Source sdev400hw2craigpoma to Destination craigpoma-624585
+2021-02-23 01:51:15 INFO:Deleted object temp_file from bucket craigpoma-624585.
+2021-02-23 01:51:25 INFO:Deleted bucket craigpoma-624585
+2021-02-23 01:51:37 INFO:Object temp_file from Source sdev400hw2craigpoma downloaded as ./temp_file

@@ -1,0 +1,29 @@
+Overall Feedback
+'1. Create a bucket'
+    -3pts - ERROR CHECKING - First and Last name can only contain valid name characters (i.e. A-Z, a-z, and -) but must be lowercase on create. 
+      - There is a full example run of what was expected in the Announcement from May 18, 2023 12:01 AM. All error cases were listed in this announcement.
+
+'2: Put objects.'
+    -3pts - ERROR CHECKING - Code dies when a non-existent bucket or Object is entered. There is a full example run of what was expected in the Announcement from May 18, 2023 12:01 AM. All error cases were listed in this announcement.
+
+'3: Delete bucket.'
+    -5pts - ERROR CHECKING - Code dies if bucket is not empty. There is a full example run of what was expected in the Announcement from May 18, 2023 12:01 AM. All error cases were listed in this announcement.
+
+'4: Delete an object.'
+    -3pts - ERROR CHECKING - Code dies when a non-existent bucket is entered. There is a full example run of what was expected in the Announcement from May 18, 2023 12:01 AM. All error cases were listed in this announcement.
+
+'5: Copy an object.'
+    -5pts - ERROR CHECKING - Code dies when a non-existent bucket or Object entered. Code allows me to enter the source and destination that are the same - and will die.There is a full example run of what was expected in the Announcement from May 18, 2023 12:01 AM. All error cases were listed in this announcement.
+    
+'6. Downloads an existing object from a bucket.'
+    -3pts - ERROR CHECKING - Code dies when a blank bucket or blank Object entered. There is a full example run of what was expected in the Announcement from May 18, 2023 12:01 AM. All error cases were listed in this announcement.
+
+You may choose to correct the errors above and submit a revised assignment to earn 1/2 of the lost points above.
+Please let me know if you would like to take advantage of that grading opportunity.
+You must complete this before the solution is posted June 10, 2023 @ 12:00AM ET.
+
+Respectfully,
+
+Craig Poma
+Adjunct Associate Professor
+craig.poma@faculty.umgc.edu

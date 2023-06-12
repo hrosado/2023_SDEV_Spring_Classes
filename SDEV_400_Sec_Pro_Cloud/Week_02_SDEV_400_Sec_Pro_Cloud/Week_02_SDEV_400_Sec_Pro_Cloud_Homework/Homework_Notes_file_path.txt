@@ -1,0 +1,56 @@
+HW 1 file path error 
+Nwamaka Black posted May 29, 2023 10:35 PM
+This page automatically marks posts as read as you scroll.Adjust automatic marking as read setting
+My file path is not working no matter how I input it. I have tried more combinations than I can remember or even count. How did you or would you recommend the file path documented? TYIA
+
+Filter by:
+|
+Clear filters
+Show:
+
+Threaded
+View profile card for Craig Poma Craig Poma
+15 hours ago
+ For uploading a file, the file path is relative to the Cloud9IDE file location, not your local machine (i.e. not C:/my_documents/my_file).
+
+The file path on the Cloud9IDE will start with:
+
+/home/ec2-user/environment/
+
+You can see the file path of the current director your are in on your Cloud9IDE by using the "pwd" command in the terminal window. (i.e. Print Working Directory)
+
+So, say you had a folder Week1 off the base path of your Cloud9IDE. In that folder you had a file name - my_file.txt. The file path would be:
+
+ /home/ec2-user/environment/Week1/my_file.txt
+
+Respectfully,
+
+Craig Poma
+Adjunct Associate Professor
+craig.poma@faculty.umgc.edu
+
+View profile card for Nwamaka Black Nwamaka Black
+13 hours ago
+Hello! Thank you for getting back to me so soon. That still isnt working. I have tried it with quotes and without. I have tried it with the slashes going the other way because I am on Windows. Is the file supposed to be in Cloud9IDE ?
+
+View profile card for Craig Poma Craig Poma
+7 hours ago
+Correct. The file is NOT on your local Windows or MAC machine. You need to drag/drop it from your local machine to the Cloud9IDE folders. Then, you would be referencing it from the paths I described above.
+
+In this example the file is located in:
+
+/home/ec2-user/environment/Week2/Week2 on the Cloud9IDE
+
+
+
+Respectfully,
+
+Craig Poma
+Adjunct Associate Professor
+craig.poma@faculty.umgc.edu
+
+image.png
+(87.85 KB)
+View profile card for Nwamaka Black Nwamaka Black
+5 hours ago
+Thank you! I will try that now.

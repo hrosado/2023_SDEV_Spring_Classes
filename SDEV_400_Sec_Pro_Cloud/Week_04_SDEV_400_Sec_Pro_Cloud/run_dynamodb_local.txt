@@ -1,0 +1,18 @@
+
+
+Source: aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+cd ~/Documents/Repos/SDEV_UMGC/SDEV_400_Sec_Pro_Cloud/Week_04_SDEV_400_Sec_Pro_Cloud/dynamodb_local_latest
+
+or
+
+cd /mnt/c/Documents and Settings/hommy/My Documents/Repos/SDEV_UMGC/SDEV_400_Sec_Pro_Cloud/Week_04_SDEV_400_Sec_Pro_Cloud/dynamodb_local_latest$
+
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+-- starts service
+-- Open new tab and execute the commands
+
+Example:
+aws dynamodb list-tables --endpoint-url http://localhost:8000
+

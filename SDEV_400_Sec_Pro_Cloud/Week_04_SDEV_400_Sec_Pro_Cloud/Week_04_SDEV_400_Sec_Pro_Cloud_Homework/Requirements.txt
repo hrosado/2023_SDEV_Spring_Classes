@@ -1,0 +1,11 @@
+Write a python application that does the following:
+
+1. Create table Courses
+2. update item
+	- Subject
+	- CatalogNbr
+	- Title
+	NumCredits
+	CourseID [hashkey]
+
+  // "Course": { "S": "" },
